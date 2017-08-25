@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYT Search App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div class="jumbotron">
+   <h1><i class="fa fa-newspaper-o"></i> New York Times Search</h1>
+</div>
+
+
+  <div id="container" class="container">
+  	<div class="row">
+  		<div class="col-md-12">
+
+        <div id="search-div">
+          <form>
+            <div class="form-group">
+              <p id="search-param"><span id="search-icon" class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Search Parameters</p>
+              <label for="search-term">Search Term:</label>
+              <input id="search-term">
+              <label for="num-recs">Number of Records to Retrieve:</label>
+              <input list="num-recs">
+                <datalist id="num-recs">
+                  <option value="5">
+                  <option value="10">
+                  <option value="25">
+                </datalist>
+              <label for="start-year">Start Year (Optional):</label>
+              <input id="start-year">
+              <label for="end-year">End Year (Optional):</label>
+              <input id="end-year">
+              <button id="submit" type="submit" class="btn btn-default">Search</button>
+              <button id="clear" class="btn btn-default">Clear Results</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  	</div>
+    <br>
+  	<div class="row">
+  		<div class="col-md-12">
+        <div id="responses">
+              <p id="top-articles"><span id="top-articles-icon" class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Top Articles</p>
+
+        
+        </div>
+  		</div>
+	
+  	</div>
+  </div>
+  <br><br>
+    <footer class="footer">
+    </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

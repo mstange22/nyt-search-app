@@ -1,0 +1,69 @@
+.jumbotron {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 960px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #212145;
+	color: white;
+}
+
+#container {
+	width: 960px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+input {
+	display: block;
+	width: 935px;
+	height: 30px;
+	margin: 0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+	border: 1px solid #999999;
+}
+
+label {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 920px;
+	border: none;
+}
+
+#search-div, #responses {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#search-param, #top-articles {
+	padding-top: 5px;
+	height: 30px;
+	background-color: #000000;
+	color: #ffffff;
+	padding-left: 5px;
+}
+
+#submit, #clear {
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #999999;
+	color: #ffffff;
+}
+
+#top-articles-icon, #search-icon {
+	margin-left: 10px;
+}
+
+.article {
+	background-color: #eeeeee;
+	margin: 5px;
+	padding: 20px 10px;
+}
