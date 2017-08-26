@@ -5,7 +5,7 @@
 	width: 960px;
 	text-align: center;
 	border: 2px solid black;
-	border-radius: 5px;
+	border-radius: 4px;
 	background-color: #212145;
 	color: white;
 }
@@ -16,7 +16,7 @@
 	padding-right: 0px;
 }
 
-input {
+input, select {
 	display: block;
 	width: 935px;
 	height: 30px;
@@ -43,6 +43,7 @@ label {
 }
 
 #search-param, #top-articles {
+	margin-top: 0;
 	padding-top: 5px;
 	height: 30px;
 	background-color: #000000;
@@ -51,10 +52,11 @@ label {
 }
 
 #submit, #clear {
-	height: 40px;
+	height: 35px;
 	margin-top: 10px;
 	margin-left: 10px;
 	background-color: #999999;
+	border: 1px solid black;
 	color: #ffffff;
 }
 
@@ -64,6 +66,11 @@ label {
 
 .article {
 	background-color: #eeeeee;
-	margin: 5px;
-	padding: 20px 10px;
+	margin: 20px;
+	padding: 30px 20px;
+}
+
+.headline-main {
+	font-size: 1.5em;
+	font-weight: bold;
 }
